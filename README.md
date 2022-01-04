@@ -1,1 +1,1 @@
-# rsschool-cv
+https://KairYergozha.github.io/rsschool-cv/
