@@ -1,0 +1,86 @@
+    .nav{
+        font-size:15px;
+        text-align: left;
+        font-weight: bold;
+    }
+    .header{
+        border:1px solid black;
+        background-color: rgb(119, 167, 238);
+        height:210px;
+        font-size:17px;
+    }
+    .myimage{
+        border: 25%;
+        width:10;
+        height:10;
+    }
+    .aboutme{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        top:px;
+    }
+    .contacts{
+        font-style: italic;
+        font-size: 30px;
+        
+    }
+    .Me{
+        font-style: italic;
+        font-size: 30px;
+    }
+    .section-item a {
+        color: #829985;
+        text-decoration: none;  
+        transition: color 0.5s;
+
+      }
+      .section-item a:hover {
+        color: #4d2323;
+      }
+      @keyframes fdfd{
+        0%{
+          color:blue;
+        }
+        25%{
+          color:red;
+        }
+        50%{
+          color:purple;
+        }
+        75%{
+          color:yellow;
+        }
+        100%{
+          color:pink;
+        }
+      }
+        .rainbow-text{
+          animation:fdfd 1s infinite;
+          text-align: left;
+          font-size: 30px;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid rgb(0, 0, 0);
+            background-color: rgb(119, 167, 238);
+            height:130px;
+        }
+        .content {
+            max-width: 1600px;
+            margin: auto;
+        }
+        .link{
+            position: absolute;
+            top: 0px;
+            font-style: italic;
+            font-size: 20px;
+        }
+        .year{
+          text-align: right;
+        }
+        .container {
+          max-width: 1440px;
+          margin: 0 auto;
+        }
